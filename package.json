@@ -1,0 +1,40 @@
+{
+  "name": "drillnode",
+  "version": "0.0.2",
+  "description": "Node.js client for Apache Drill.",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "Apache Drill",
+    "BigData",
+    "NoSQL",
+    ".parquet",
+    "Data Science"
+  ],
+  "author": "davidemiceli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidemiceli/drillnode.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidemiceli/drillnode/issues"
+  },
+  "maintainers": [
+    "davidemiceli"
+  ],
+  "homepage": "https://github.com/davidemiceli/drillnode#readme",
+  "directories": {
+    "lib": "lib",
+    "examples": "examples"
+  },
+  "scripts": {
+    "test": "node /examples/test.js"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
