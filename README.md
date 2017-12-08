@@ -8,7 +8,7 @@ npm install drillnode
 ```
 
 ## Getting Started
-```
+```javascript
 // Requirements
 const Drill = require('drillnode');
 
